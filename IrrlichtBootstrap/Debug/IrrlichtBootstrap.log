@@ -1,0 +1,12 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (IrrlichtBootstrap.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stdafx.cpp
+  Player.cpp
+  IrrlichtBootstrap.cpp
+c:\users\thaon\documents\visual studio 2015\projects\irrlichtbootstrap\irrlichtbootstrap\irrlichtbootstrap.cpp(86): warning C4244: 'initializing': conversion from 'irr::u32' to 'irr::f32', possible loss of data
+c:\users\thaon\documents\visual studio 2015\projects\irrlichtbootstrap\irrlichtbootstrap\irrlichtbootstrap.cpp(91): warning C4244: '=': conversion from 'irr::u32' to 'irr::f32', possible loss of data
+  EventHandler.cpp
+  CollisionHandler.cpp
+c:\users\thaon\documents\visual studio 2015\projects\irrlichtbootstrap\irrlichtbootstrap\collisionhandler.cpp(42): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  IrrlichtBootstrap.vcxproj -> C:\Users\Thaon\documents\visual studio 2015\Projects\IrrlichtBootstrap\Debug\Kitten.exe
+  IrrlichtBootstrap.vcxproj -> C:\Users\Thaon\documents\visual studio 2015\Projects\IrrlichtBootstrap\Debug\Kitten.pdb (Full PDB)
