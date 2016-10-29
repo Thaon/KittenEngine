@@ -53,7 +53,10 @@ void CollisionHandler::CalculateSceneCollisions(scene::ISceneManager* scenemgr, 
 			printf("STD Camera! \n");
 			printf("The current position of this camera is: %f,%f,%f\n\n", current->getPosition().X, current->getPosition().Y, current->getPosition().Z);
 			if (cam != NULL)
+			{
 				cam->setPosition(current->getPosition());
+				cam->setRotation(current->getRotation());
+			}
 			else
 				printf("Camera not found...\n");
 		}
